@@ -26,7 +26,7 @@ Rapid Chat is a user-friendly and efficient live chat application designed to fa
 git clone https://github.com/bala587/Rapid-Chat.git
 ```
 
-### Install packages (both folder frontend and backend)
+### Install packages (both folder, frontend and backend)
 
 ```shell
 npm install
