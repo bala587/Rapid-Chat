@@ -1,0 +1,104 @@
+form{
+  width: 30%;
+  height: 550px;
+  margin-left: 490px;
+  margin-top: 20px;
+}
+.form-group {
+  margin-bottom: 1rem;
+  margin-left: 13%;
+  margin-top: 5px;
+}
+
+.form-group label {
+  font-weight: 500;
+}
+
+.form-group input {
+    width: 90%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    font-weight: 600 !important;
+    color: #e7e7e7;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  width:29%;
+  margin-left: 35%;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 1150px) {
+  form {
+    /* Center the form horizontally */
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 780px)  {
+  /* Adjust the maximum width to target the devices where the form should not appear at the extreme right-top */
+  form {
+    /* Center the form horizontally */
+     margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+}
+@media screen and (max-width:380px){
+  .btn-primary{
+    width:auto;
+  }
+  form{
+    width:auto;
+  }
+}
+
+
+
+
+
+
