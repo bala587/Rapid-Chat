@@ -9,7 +9,7 @@ Rapid Chat is a user-friendly and efficient live chat application designed to fa
 ### Key Features:
 
 - Instant Messaging
-- Clean and Intuitive Interface
+- Clean and Simple Interface
 - User Authentication
 - Room-Based Communication
 - User Registration and Profiles
@@ -20,9 +20,9 @@ Rapid Chat is a user-friendly and efficient live chat application designed to fa
 - Security Measures
 - Cross-Platform Compatibility
 
-  ### Cloning the repository
-
-  ```shell
+### Cloning the repository
+  
+```shell
 git clone https://github.com/bala587/Rapid-Chat.git
 ```
 
@@ -37,6 +37,7 @@ npm install
 ```js
 REACT_APP_BASE_URL=
 ```
+Get render chat api 
 
 ### Fisrt run your backend server
 
